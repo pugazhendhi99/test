@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63c5bdba21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>PUGAZH</span>ENDHI.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()" ></i>
+                 </ul>
+                <i class="fa fa-bars"onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-txt">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, I'm <span>Pugazhendhi</span><br>From India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!--about-->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="img/P8235164.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <h3>Myself Pugazhendhi i am studied in Hindusthan college of Engineering and Techology Bachelor of Computer Science Engineering from (2019 - 2023).Then i join the course Frontend Developer in Greens technology chennai tamabram.
+                    </h3>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>FrontEnd Developer</span><br>•Proficient in HTML5, CSS3, JavaScript, and jQuery. <br>
+                                •Familiarity with front-end frameworks such as Bootstrap and React. <br>
+                                •Basic understanding of back-end development technologies like Node.js and Express.js. <br>
+                                •Experience with version control systems like Git.</li>
+                            <li><span>Web Development</span><br>•Responsive Design: The ability to create websites that adapt and display properly on various devices and screen sizes, ensuring a consistent user experience across desktops, tablets, and mobile phones. <br>
+                                •Version Control/Git: Proficiency in version control systems like Git enables collaboration, tracking changes, and managing codebase effectively.</li>
+                            <li><span>App Development</span><br> •Understanding of Development Environments:  Know how to use Integrated Development Environments (IDEs) like Xcode (for iOS) or Android Studio (for Android) to write, debug, and test code. <br>
+                                •UI/UX Design: Basic knowledge of user interface (UI) and user experience (UX) design principles to create visually appealing and intuitive app layouts.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>ANDROİD MALWARE DETECTION SYSTEM USING MACHINE LEARNING.</span><br>The main objective of this project is to detect the leakage of toxic gas and to trigger an alert
+                                system to activate the safety precautions using IoT devices and cloud service.</li>
+                            <li><span>A GESTURE - BASED TOOL FOR STERILE BROWSING OF RADIOLOGY IMAGES NALAIYA THIRAN
+                                PROJECT BASED LEARNING</span><br>This paper presents a video-based hand gesture capture and recognition system used to
+                                manipulate magnetic resonance images (MRI) within a graphical user interface. A hand gesture
+                                vocabulary of commands was selected as being natural in the sense that each gesture is cognitively
+                                associated with the notion or command that is meant to represent it. For example, moving the hand
+                                left represents a turn left command.</li>
+                            <li><span>Personal Portfolio Website</span><br>•	Developed a responsive portfolio website showcasing projects, skills, and contact information using HTML, CSS, and JavaScript <br>
+                                •	Implemented CSS animations and transitions for enhanced user experience <br>
+                                •	Utilized media queries for cross-device compatibility</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSLC (2016-2017)</span><br> AKT Academic Matriculation Higher secondary school</li>
+                            <li><span>HSLC (2018-2019)</span><br> Mangalore Model School </li>
+                            <li><span>UG (2019-2023)</span><br>Bachelor of Computer Science Engineering in Hindusthan college of engineering and technology Coimbatore</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in providing comprehensive web design services tailored to meet your unique needs. From conceptualization to implementation, I work closely with clients to create visually stunning, user-friendly websites that effectively communicate their brand message and drive results. Whether you need a brand new website, a redesign, or ongoing maintenance, I'm here to help you establish a strong online presence and stand out in today's competitive digital landscape. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-user"></i>
+                    <h2>Web Development</h2>
+                    <p>I offer professional web development services to bring your digital vision to life. With expertise in HTML, CSS, JavaScript, and various frameworks, I create responsive, dynamic websites that align with your business goals. From building custom web applications to optimizing performance and security, I provide end-to-end development solutions to ensure your online presence is robust, scalable, and tailored to your specific needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-apple"></i>
+                    <h2>App Design</h2>
+                    <p>I specialize in crafting intuitive and visually appealing mobile app designs that captivate users and enhance their experience. From wireframing to prototyping and UI/UX design, I focus on creating seamless interfaces that align with your brand identity and engage your target audience. Whether you need iOS, Android, or cross-platform app design, I’m committed to delivering innovative solutions that elevate your app and drive user satisfaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>My First E-Commerce Web Site Mobile And Laptop Services. You Can See The Link In Below</p>
+                        <a href="https://mblservices.neocities.org/mobileservice/new%20project" ><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png">
+                    <div class="layer">
+                        <h3>My Portfolio Website</h3>
+                        <p>I create My Portfolio Website By Using HTML,CSS AND JAVA SCript. You Can See The Link In Below </p>
+                        <a href="https://mblservices.neocities.org/mobileservice/new%20project"><i class="fa fa-external-link"></i></a>
+                    </div>
+                  
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png">
+                    <div class="layer">
+                        <h3>BMW Bike website</h3>
+                        <p>This Website Was Just My Favourite Bike So I Create This Website. You Can See The Link In Below</p>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane"></i> pugazh2801@gmail.com</p>
+                    <p> <i class="fa fa-phone"></i> +91 8940920665</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pugazhendhi-nallathambi-a2ba03277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.instagram.com/__r_a_a_v_a_n____?igsh=MWozdHpmbmp5NTVidA%3D%3D&utm_source=qr"><i class="fa fa-instagram"></i></a>
+                        <a href="https://wa.link/7ou5f3"><i class="fa fa-whatsapp"></i></a>
+                        <a href="mailto:pugazh2801@gmail.com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                    <a href="img/PUGAZHENDHI.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <p>copyright Pugazhendhi. made with my idea <i class="fa fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxHETDWo76ZGSOEpoJvMw8FZDgwuYcmUhBMkRLb5M8ykMlVrvwYi6BctskYOcKlqLHo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>   {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
